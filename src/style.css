@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-active: #f44335;
+  --color-background: #fafafa;
+}
+.course_conainter {
+  position: relative;
+}
+.course_conainter::after {
+  content: "";
+  background-image: url(./images/cirtificate/winner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 367px;
+  height: 427px;
+  top: -28%;
+  right: 0;
+}
+.course_1_content::after {
+  content: "";
+  background-image: url(/src/images/snake/snake-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 28rem;
+  bottom: 0;
+  z-index: 1;
+  transform: scale(0.9);
+}
+.course_2_content::after {
+  content: "";
+  background-image: url(/src/images/snake/snake-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 28rem;
+  bottom: 0;
+  z-index: 1;
+  transform: scale(0.9);
+}
+.course_3_content::after {
+  content: "";
+  background-image: url(/src/images/snake/snake-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 28rem;
+  bottom: 0;
+  z-index: 1;
+  transform: scale(0.9);
+}
+.course_4_content::after {
+  content: "";
+  background-image: url(/src/images/snake/snake-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 28rem;
+  bottom: 0;
+  z-index: 1;
+  transform: scale(1);
+}
