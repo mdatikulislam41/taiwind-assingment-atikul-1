@@ -25,7 +25,7 @@
   top: -28%;
   right: 0;
 }
-.course_1_content::after {
+/* .course_1_content::after {
   content: "";
   background-image: url(/src/images/snake/snake-1.png);
   background-repeat: no-repeat;
@@ -37,8 +37,8 @@
   bottom: 0;
   z-index: 1;
   transform: scale(0.9);
-}
-.course_2_content::after {
+} */
+/* .course_2_content::after {
   content: "";
   background-image: url(/src/images/snake/snake-2.png);
   background-repeat: no-repeat;
@@ -76,4 +76,4 @@
   bottom: 0;
   z-index: 1;
   transform: scale(1);
-}
+} */
